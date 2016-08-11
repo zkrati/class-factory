@@ -1,0 +1,17 @@
+{
+    "name": "zkrati/class-factory",
+    "description": "Simple library to manage class instances. It handles dependencies and supports lazy instantiating.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boomerank",
+            "email": "info@boomerank.cz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload" : {
+        "psr-4" : {"Zkrati\\ClassManagement\\" : "src/"}
+    }
+}
